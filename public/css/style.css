@@ -1,0 +1,243 @@
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.logo {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    width: 50%;
+}
+
+
+.searchbar {  
+    display: flex;
+    width: 50%;
+}
+
+.searchbutton {
+    cursor: pointer;
+    
+}
+
+.searchbutton:hover {
+    background-color: #39b54a;
+}
+
+body {
+    font-family: 'Roboto', 'sans-serif';
+    background-color: #EAC926;
+}
+
+main {
+    text-align: center;
+    width: 100%;
+}
+
+.SearchBar {
+    background-color: white;
+    border: none;
+    
+    
+}
+
+.Titulos {
+    font-size: 24px;
+    width: 100%;
+}
+
+.burguermenu {
+    font-size: 40px;
+    text-align: center;
+    padding: 5px;
+    margin: auto;
+    color: white;
+    height: 40px;
+    width: 40px;
+    background-color: blue;
+    border-radius: auto;
+}
+
+.container-burguermenu {
+    text-align: center;
+}
+
+
+
+.articulos {
+    margin-top: 1px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #ebebeb;
+}
+
+.product {
+    width: 25%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.product-image {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid darkgray;
+}
+
+.product-content {
+    background-color: white;
+    width: 75%;
+}
+
+.product-text {
+    text-align: left;
+    margin-left: 5%;
+    font-size: 20px;
+}
+
+
+.Moulinex1 {
+    margin-bottom: 5px;
+
+}
+
+.Mac1 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+}
+
+.Galaxy1 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.Smart1 {
+    margin-top: 5px;
+}
+
+.Moulinex2 {
+    margin-bottom: 5px;
+}
+
+.Mac2 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.Galaxy2 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.Smart2 {
+    margin-top: 5px;
+}
+
+.Price {
+    font-size: 18px;
+    /* width: 30%; */
+}
+
+.Discount {
+    font-size: 16px;
+    color: #39b54a;
+    /* width: 70%; */
+}
+
+.Descriptions {
+    font-size: 16px;
+}
+
+.CuerpoDeTexto {
+    font-size: 12px;
+}
+
+.camionsitoenvio {
+    border: solid 1px #39b54a;
+    border-radius: 100%;
+    width: 35px;
+    height: 35px;
+    padding: 5px;
+    color: #39b54a;
+    align-items: center;
+    font-size: 25px;
+    text-align: center;
+    margin: auto;
+}
+
+.moulinexprueba {
+    background-color: white;
+    width: 50%;
+
+}
+
+
+.article-description {
+    display: block;
+    color: rgb(79, 79, 79);
+}
+
+footer {
+    text-align: center;
+    margin: 50px;
+    background-color: #ebebeb;
+}
+
+.FooterIcon {
+    color: #1259c3;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 361px) {
+
+    /*Telefono*/
+    .article-description {
+        display: none;
+    }
+    
+
+    .product {
+        width: 100%;
+    }
+
+    .site {
+        display: none;
+    }
+}
+
+@media (min-width: 361px) {
+
+    /*TABLET*/
+    .container-burguermenu {
+        display: none;
+    }
+
+    .product {
+        width: 50%;
+    }
+
+    body {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+}
+
+@media (min-width: 769px) {
+
+    /*DESKTOP*/
+    .container-burguermenu {
+        display: none;
+    }
+
+    .product {
+        width: 25%;
+    }
+
+    body {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+}
