@@ -80,18 +80,15 @@ main {
     display: flex;
     justify-content: center;
 }
-
+.product-content {
+    background-color: white;
+    width: 75%;
+}
 .product-image {
     width: 100%;
     height: auto;
     border-bottom: 1px solid darkgray;
 }
-
-.product-content {
-    background-color: white;
-    width: 75%;
-}
-
 .product-text {
     text-align: left;
     margin-left: 5%;
